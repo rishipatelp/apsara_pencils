@@ -34,6 +34,9 @@ namespace apsara_pencils
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            services.AddDbContext<apsara_pencilsContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("apsara_pencilsContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -21,3 +21,9 @@ ________________________________________________________________________________
 1510 - Update the README file
 1517 - Creating the image folder in the wwwroot and add the image to the folder.
 1525 - Trying to add the image in the aboutus statement and applying the css to the file.
+1550 - Adding new fonts for the about us.
+1625 - Created new Class file in Models as PencilClass.cs
+1629 - Adding new Class file and new fields in the PencilClass.cs
+1635 - Adding new code in appsettings.json
+1641 - Scaffolding the Pencil Class.
+1645 - 
