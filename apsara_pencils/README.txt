@@ -26,4 +26,5 @@ ________________________________________________________________________________
 1629 - Adding new Class file and new fields in the PencilClass.cs
 1635 - Adding new code in appsettings.json
 1641 - Scaffolding the Pencil Class.
-1645 - 
+1645 - Updating the migration process.
+1700 - Failed to run the project.
