@@ -28,3 +28,8 @@ ________________________________________________________________________________
 1641 - Scaffolding the Pencil Class.
 1645 - Updating the migration process.
 1700 - Failed to run the project.
+__________________________________________________________________________________________________________________________________________________
+
+2123 - Tried again to run the code but now I did some changes in the migration process.
+2126 - As I tried updating the database using the migration process the application ran succesfully.
+2128 - After completing the process 
