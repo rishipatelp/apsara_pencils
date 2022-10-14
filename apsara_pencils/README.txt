@@ -32,4 +32,5 @@ ________________________________________________________________________________
 
 2123 - Tried again to run the code but now I did some changes in the migration process.
 2126 - As I tried updating the database using the migration process the application ran succesfully.
-2128 - After completing the process 
+2128 - After completing the process I ran the application again, and it ran successfully.
+2145 - Now I will be editing the SeedData. 
