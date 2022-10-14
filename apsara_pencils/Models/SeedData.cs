@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using apsara_pencils.Data;
+using System;
+using System.Linq;
 
 namespace apsara_pencils.Models
 {
