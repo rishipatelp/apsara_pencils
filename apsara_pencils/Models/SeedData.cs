@@ -22,91 +22,91 @@ namespace apsara_pencils.Models
                 context.PencilClass.AddRange(
                     new PencilClass
                     {
-                        productName = "Apsara 1",
-                        Price = 1.99,
+                        productName = "Apsara A",
+                        Price = 2,
                         Color = "Black",
-                        Category = "HB1",
+                        Category = "A",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Review = 2
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 2",
-                        Price = 2.99,
+                        productName = "Apsara B",
+                        Price = 2,
                         Color = "White",
-                        Category = "B1",
+                        Category = "B",
                         ReleaseDate = DateTime.Parse("1989-3-10"),
                         Review = 4
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 3",
-                        Price = 3.99,
+                        productName = "Apsara C",
+                        Price = 3,
                         Color = "Dark Brown",
-                        Category = "B2",
-                        ReleaseDate = DateTime.Parse("1999-22-2"),
+                        Category = "C",
+                        ReleaseDate = DateTime.Parse("1999-2-2"),
                         Review = 2
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 4",
-                        Price = 3.79,
+                        productName = "Apsara D",
+                        Price = 3,
                         Color = "Pink",
-                        Category = "B3",
+                        Category = "D",
                         ReleaseDate = DateTime.Parse("1999-3-2"),
                         Review = 3
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 5",
-                        Price = 0.99,
+                        productName = "Apsara E",
+                        Price = 1,
                         Color = "Black",
-                        Category = "HB1",
+                        Category = "E",
                         ReleaseDate = DateTime.Parse("2001-2-12"),
                         Review = 4
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 6",
-                        Price = 3.99,
+                        productName = "Apsara F",
+                        Price = 5,
                         Color = "Purple",
-                        Category = "B5",
+                        Category = "F",
                         ReleaseDate = DateTime.Parse("1959-8-2"),
                         Review = 1
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 7",
-                        Price = 1.59,
+                        productName = "Apsara G",
+                        Price = 2,
                         Color = "Red",
-                        Category = "HB3",
+                        Category = "G",
                         ReleaseDate = DateTime.Parse("1977-4-12"),
                         Review = 5
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 8",
-                        Price = 1.99,
+                        productName = "Apsara H",
+                        Price = 1,
                         Color = "Blue",
-                        Category = "HB4",
-                        ReleaseDate = DateTime.Parse("1999-12-12"),
+                        Category = "H",
+                        ReleaseDate = DateTime.Parse("1999-1-12"),
                         Review = 4
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 9",
-                        Price = 1.89,
+                        productName = "Apsara I",
+                        Price = 1,
                         Color = "Cyan",
-                        Category = "HB5",
-                        ReleaseDate = DateTime.Parse("1999-12-3"),
+                        Category = "I",
+                        ReleaseDate = DateTime.Parse("1999-1-3"),
                         Review = 4
                     },
                     new PencilClass
                     {
-                        productName = "Apsara 10",
-                        Price = 0.99,
+                        productName = "Apsara J",
+                        Price = 2,
                         Color = "Black",
-                        Category = "HB2",
+                        Category = "J",
                         ReleaseDate = DateTime.Parse("2000-2-12"),
                         Review = 5
                     }
