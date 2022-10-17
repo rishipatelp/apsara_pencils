@@ -34,3 +34,5 @@ ________________________________________________________________________________
 2126 - As I tried updating the database using the migration process the application ran succesfully.
 2128 - After completing the process I ran the application again, and it ran successfully.
 2145 - Now I will be editing the SeedData. 
+2245 - Trying to run the application after editing the SeedData.
+2300 - The Application ran successfully and I was able to transfer the Seed Data to the Webpage.
