@@ -2,13 +2,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using apsara_pencils.Data;
-using apsara_pencils.Models;
+using apsara_pencils.Data;      //Added Data
+using apsara_pencils.Models;    //Added Models
 using System;
-using Microsoft.Extensions.Configuration;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace apsara_pencils
 {

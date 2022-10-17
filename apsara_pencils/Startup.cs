@@ -27,16 +27,21 @@ namespace apsara_pencils
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddControllersWithViews();
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("PencilContext")));   //I changed Default Connection to PencilContext
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();
             services.AddRazorPages();
 
+            services.AddDbContext<PencilContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("PencilContext")));
+
             services.AddDbContext<apsara_pencilsContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("apsara_pencilsContext")));
+                    options.UseSqlServer(Configuration.GetConnectionString("apsara_pencilsContext")));  //new connection has been created as apsara_pencilContext
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

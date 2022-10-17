@@ -18,7 +18,7 @@ namespace apsara_pencils.Models
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
 
-        [Range (1,5)]
+        //[Range (1,5)]
         public int Review { get; set; }
     }
 }
